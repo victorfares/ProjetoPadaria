@@ -1,30 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Imperial+Script&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div id = "cabecalho">
-        <h1 class = "titulo">
+    <div id="cabecalho">
+        <h1 class="titulo">
             Panificadora Doce Sabor
         </h1>
-        <div id = "menu">
-            <a href="./login.html">Página de Login</a>
-        </div>
-        <div class="imagem">
-            <img src="./imgs/bd7884d6-5044-43b4-b316-f03f78c60231.jpeg" alt="Foto da panificadora">
-        </div>
-
+        <h1 class="imperial-script-regular">
+            Aceitamos encomendas
+        </h1>
+            <div id="menu">
+                <i class="material-icons">login</i>
+                <a href="./register.html">Página de Cadastro</a>
+                <i class="material-icons">login</i>
+                <a href="./login.html">Página de Login</a>
+                <i class="material-icons">storefront</i>
+                <a href="#produtos">Produtos</a>
+            </div>
+            <div class="imagem">
+                <img src="./imgs/bd7884d6-5044-43b4-b316-f03f78c60231.jpeg" alt="Foto da panificadora">
+            </div>
     </div>
     <div>
-        <p class="padaria-descricao">
-            A Panificador Doce sabor é o lugar perfeito para começar o dia com o aroma irresistível de pães fresquinhos saindo do forno. Oferecemos uma variedade de produtos artesanais, desde pães tradicionais até doces e salgados preparados com ingredientes selecionados. Com um ambiente acolhedor e atendimento cordial, nossa padaria é o ponto de encontro ideal para quem valoriza sabor, qualidade e tradição.
+        <p class="padaria-textos">
+            A Panificadora Doce sabor é o lugar perfeito para começar o dia com o aroma irresistível de pães fresquinhos
+            saindo do forno. Oferecemos uma variedade de produtos artesanais, desde pães tradicionais até doces e
+            salgados preparados com ingredientes selecionados. Com um ambiente acolhedor e atendimento cordial, nossa
+            padaria é o ponto de encontro ideal para quem valoriza sabor, qualidade e tradição.
         </p>
-          
+    </div>
+    <br>
+    <h2>
+        Nossos produtos
+    </h2>
+    <div id="produtos" class="produtos">
+        <div class="produto">
+            <h3>Pães</h3>
+            <img src="./imgs/Pães.png" alt="Pães">
+        </div>
+        <div class="produto">
+            <h3>Doces</h3>
+            <img src="./imgs/Doces.png" alt="Doces">
+        </div>
+        <div class="produto">
+            <h3>Salgados</h3>
+            <img src="./imgs/Salgados.png" alt="Salgados">
+        </div>
+    </div>
+    <div>
+        <p class="padaria-textos">
+            Comer na Panificadora Doce Sabor é uma experiência deliciosa e acolhedora. Você pode aproveitar nossos
+            produtos fresquinhos no local, em um ambiente agradável, ou pedir para entrega no conforto de casa. Todos os
+            nossos pães, doces e salgados são preparados diariamente, garantindo sempre sabor e qualidade. </p>
     </div>
 
+    <footer class="rodape">
+        <div>
+            <p>Contatos:</p>
+            <ul>
+                <li>
+                    <i class="material-icons">call</i>
+                    Telefone: (43) 98459-7301
+                </li>
+                <li>
+                    <i class="material-icons">mail</i>
+                    Email: panificadoraDoceSaborCP@gmail.com
+                </li>
+            </ul>
+        </div>
+        <div>
+            <p><i class="material-icons">pin_drop</i>Localização: Avenida XV de Fevereiro, 764 - Centro</p>
+        </div>
+        <div>
+            <p><i class="material-icons">manage_accounts</i>Feito por:</p>
+            <ul>
+                <li> <a target="_blank" href="https://almeidaaaaaaaa.github.io/curriculocss/">Gabriel Almeida</a></li>
+                <li> <a target="_blank" href="https://victorfares.github.io/curriculumfrontend/">Victor Fares</a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>

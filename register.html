@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Cadastro</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form action="index.html">
+        <label for="nome">Nome Completo:</label><br>
+        <input type="text" id="nome" name="nome" required ><br>
+        <label for="CPF">CPF:</label><br>
+        <input type="text" id="CPF" name="CPF"><br>
+        <label for="Email">Email:</label><br>
+        <input type="Email" id="Email" name="Email" placeholder="insira um email válido" required><br>
+        <label for="Perfil"> Escolha seu perfil</label> <br>
+        <select id="Perfil" name="Perfil">
+            <option value="Cliente">Cliente</option>
+            <option value="Gerente">Gerente</option>
+            <option value="Funcionario">Funcionario</option>
+          </select><br>
+        <label for="opiniao">Deixe sua opiniao:</label><br>
+        <textarea id="opiniao" name="opiniao" rows="5" cols="30"></textarea><br>
+        <label for="senha">Senha:</label><br>
+        <input type="password" id="senha" name="senha" required ><br><br>
+        <input type="submit" value="Criar Conta">
+
+    </form>
+</body>
+</html>
