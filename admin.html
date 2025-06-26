@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - Cadastro de Usuários</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+
+    <div id="cabecalho">
+        <h1 class="titulo">
+            Administração
+        </h1>
+        <div id="menu">
+            <i class="material-icons">login</i>
+            <a href="./register.html">Página de Cadastro</a>
+            <i class="material-icons">login</i>
+            <a href="./login.html">Página de Login</a>
+            <i class="material-icons">storefront</i>
+            <a href="#produtos">Produtos</a>
+            <i class = "material-icons">admin_panel_settings</i>
+            <a href="admin.html">Admin</a>
+        </div>
+    </div>
+
+    <main>
+        <form id="formCadastro">
+            <label>Nome:</label><br>
+            <input type="text" id="nome" required><br>
+
+            <label>Email:</label><br>
+            <input type="email" id="email" required><br>
+
+            <button type="submit">Cadastrar</button>
+            <button type="button" id="limparCampos">Limpar</button>
+            <button type="button" id="excluirTodos">Excluir Todos</button>
+        </form>
+        
+        <hr class="separador">
+
+        <input type="text" id="pesquisa" placeholder="Pesquisar nome ou email">
+
+        <ul id="listaUsuarios"></ul>
+    </main>
+
+    <footer class="rodape">
+        <div class="contato">
+            <p><strong>Contatos:</strong></p>
+            <ul>
+                <li><i class="material-icons">call</i> Telefone: (43) 98459-7301</li>
+                <li><i class="material-icons">mail</i> Email: panificadoraDoceSaborCP@gmail.com</li>
+            </ul>
+        </div>
+
+        <div class="localizacao">
+            <p><i class="material-icons">pin_drop</i> Localização:<br>Avenida XV de Fevereiro, 764 - Centro</p>
+        </div>
+
+        <div class="creditos">
+            <p><i class="material-icons">manage_accounts</i> Feito por:</p>
+            <ul>
+                <li><a href="https://almeidaaaaaaaa.github.io/curriculocss/" target="_blank">Gabriel Almeida</a></li>
+                <li><a href="https://victorfares.github.io/curriculumfrontend/" target="_blank">Victor Fares</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
